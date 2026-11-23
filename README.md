@@ -1,0 +1,35 @@
+# Mentoria de Análise Técnica
+
+Repositório pessoal de estudos de **Ana Beatriz Laurentino** na Mentoria de Análise Técnica do **Programa de Trainee 2026 / Formação de Equipe — Sala de Ações UFPB**, com o **Prof. Dr. Sinézio Fernandes Maia**.
+
+## Objetivo
+
+Acompanhar as aulas, seguir o material do curso, escrever resumos e guardar as atividades e o progresso ao longo da mentoria.
+
+## Índice
+
+### Resumos do material (Pring, *Análise Técnica Explicada*)
+| Capítulo | Tema |
+|---|---|
+| [Cap. 3](resumos/cap03-teoria-de-dow.md) | Teoria de Dow |
+| [Cap. 5](resumos/cap05-suportes-e-resistencias.md) | Suportes e Resistências |
+| [Cap. 6](resumos/cap06-linhas-de-tendencia.md) | Linhas de Tendência |
+| [Cap. 7](resumos/cap07-volume.md) | Volume |
+
+Também: [glossário de termos](resumos/glossario.md) (tradução literal do livro → termo usado no mercado brasileiro).
+
+### Aulas
+- [Aula — Tendências, fases, ângulo e volume](aulas/aula-tendencias-e-volume.md)
+- [Modelo para novas aulas](aulas/_modelo-aula.md)
+
+### Atividades
+- [Exercício 1 — ALOS3 (boleta)](atividades/exercicio-01-alos3.md)
+
+### [Progresso](progresso.md)
+
+## Como usar
+- Nova aula: copie `aulas/_modelo-aula.md` para `aulas/AAAA-MM-DD-tema.md`.
+- Nova atividade: crie `atividades/exercicio-NN-ativo.md`.
+- Atualize o [progresso](progresso.md) ao final de cada semana.
+
+> Os PDFs do curso são material protegido por direitos autorais e **não** ficam neste repositório. Aqui ficam só resumos e anotações próprias.
