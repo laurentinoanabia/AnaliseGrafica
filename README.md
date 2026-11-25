@@ -24,6 +24,7 @@ Também: [glossário de termos](resumos/glossario.md) (tradução literal do liv
 
 ### Atividades
 - [Exercício 1 — ALOS3 (boleta)](atividades/exercicio-01-alos3.md)
+- [Exercício 2 — ALOS3, Tendências de Dow (Trade002)](atividades/exercicio-02-alos3-dow.md) · [planilha](atividades/exercicio-02-alos3-dow.xlsx)
 
 ### [Progresso](progresso.md)
 
