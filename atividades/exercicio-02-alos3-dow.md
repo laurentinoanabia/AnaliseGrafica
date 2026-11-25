@@ -1,7 +1,7 @@
 # Exercício 2 — ALOS3 (Allos) · Tendências de Dow
 
 **Boleta:** Trade002.xlsx · **Ferramenta:** TradingView
-**Janela de observação:** 01/10/2025 a 30/10/2026
+**Janela de observação:** 30/10/2025 a 30/10/2026
 **Quantidade:** 1 ação por operação · **Dias:** corridos
 **Planilha preenchida:** [exercicio-02-alos3-dow.xlsx](exercicio-02-alos3-dow.xlsx) (com fórmulas e aba de dados)
 
@@ -9,14 +9,14 @@
 Cotações diárias da **ALOS3.SA no Yahoo Finance** (fechamento sem ajuste de proventos), salvas em [dados/alos3-diario-2025-09-a-2026-10.csv](dados/alos3-diario-2025-09-a-2026-10.csv).
 Elas batem com as anotações do exercício 1: fechamento de 30/10/2025 = 24,73; máxima de 21/10/2026 = 36,26 (a data está confirmada); fechamento de 30/10/2026 = 23,50. A mínima de 30/10/2026 aparece como **23,00** no Yahoo (no papel está 22,99: diferença de arredondamento entre fontes).
 
-> ⚠️ Esta janela começa em **01/10/2025**, um mês antes da do exercício 1 (30/10/2025). Por isso o B&H e a Teórica mudam.
+> A janela começa em **30/10/2025**, igual à do exercício 1. As operações de Dow só acontecem dentro da janela, mas os topos e fundos de outubro/2025 (antes de 30/10) aparecem no gráfico e servem de referência para a Dow1.
 
 ## Boleta
 
 | | Compra | Preço | Venda | Preço | Dias | Lucro R$ | % |
 |---|---|---|---|---|---|---|---|
-| **B&H** | 01/10/2025 | 25,61 | 30/10/2026 | 23,50 | 394 | −2,11 | **−8,24%** |
-| **Teórica** | 15/10/2025 | 23,44 | 21/10/2026 | 36,26 | 371 | +12,82 | **+54,69%** |
+| **B&H** | 30/10/2025 | 24,73 | 30/10/2026 | 23,50 | 365 | −1,23 | **−4,97%** |
+| **Teórica** | 30/10/2025 | 24,29 | 21/10/2026 | 36,26 | 356 | +11,97 | **+49,28%** |
 | **Dow1** | 03/11/2025 | 24,97 | 22/12/2025 | 27,38 | 49 | +2,41 | +9,65% |
 | **Dow2** | 12/01/2026 | 29,43 | 19/01/2026 | 28,44 | 7 | −0,99 | −3,36% |
 | **Dow3** | 01/04/2026 | 30,98 | 22/04/2026 | 32,86 | 21 | +1,88 | +6,07% |
@@ -26,8 +26,8 @@ Elas batem com as anotações do exercício 1: fechamento de 30/10/2025 = 24,73;
 
 **Pay off** = lucro das 5 operações ÷ investimento total = 1,65 ÷ 140,39 = **1,18%**.
 
-- **B&H:** compra no fechamento do 1º pregão da janela, venda no fechamento do último.
-- **Teórica:** compra na **mínima** antes do topo (15/10/2025, 23,44) e venda na **máxima** da janela (21/10/2026, 36,26). A mínima de 30/10/2026 (23,00) vem *depois* do topo, então não serve para a compra. Se o professor quiser só fechamentos: 23,79 (14/10/2025) → 35,83 (09/10/2026) = +50,61%.
+- **B&H:** compra no fechamento do 1º pregão da janela, venda no fechamento do último (igual ao exercício 1).
+- **Teórica:** compra na **mínima** antes do topo (30/10/2025, mínima do dia 24,29) e venda na **máxima** da janela (21/10/2026, 36,26). A mínima de 30/10/2026 (23,00) vem *depois* do topo, então não serve para a compra. Se usar o fechamento de 30/10/2025 (24,73), como no exercício 1, dá +11,53 = **+46,62%**.
 
 ## A regra usada (Teoria de Dow)
 Para as operações serem verificáveis, usei uma regra fixa, aplicada pregão a pregão:
@@ -50,20 +50,20 @@ Para as operações serem verificáveis, usei uma regra fixa, aplicada pregão a
 
 | Estratégia | Resultado | Dias posicionada |
 |---|---|---|
-| Teórica (teto) | +54,69% | 371 |
+| Teórica (teto) | +49,28% | 356 |
 | Dow (5 operações) | **+1,18%** | 144 |
-| Buy and Hold | −8,24% | 394 |
-| *S&R (exercício 1, outra janela)* | *+17,57%* | *130* |
+| Buy and Hold | −4,97% | 365 |
+| S&R (exercício 1) | +17,57% | 130 |
 
 ## Observações / o que aprender
-- **Dow ganhou do B&H** (+1,18% × −8,24%) ficando posicionada só ~37% do tempo, mas ficou bem abaixo do S&R do exercício 1.
+- **Dow ganhou do B&H** (+1,18% × −4,97%) ficando posicionada só ~39% do tempo, mas ficou bem abaixo do S&R do exercício 1 (+17,57%), na mesma janela.
 - **Dow entra atrasado e sai atrasado:** espera o topo ser rompido para comprar e o fundo ser perdido para vender. Em tendências longas isso é ótimo; em **lateralidade** (jan/26, jun–jul/26) gera falsos sinais (Dow2 e Dow4).
 - **O gap de 26/10/2026 é a grande lição:** pela regra a Dow5 estaria com lucro de ~+24% (stop em 33,76), mas o gap pulou o stop. Nenhuma linha de tendência protege contra uma queda de ~25% em um dia. Sem o gap, o pay off da série seria bem positivo.
 - **Volume:** a alta de out/26 veio com volume muito acima da média (22 mi em 05/10), confirmando a tendência; o colapso de 26/10 veio com volume ainda maior (27 mi), típico de **pânico**.
 - Esta é a versão **mecânica**. Se você marcar os topos e fundos "no olho" no gráfico, os sinais podem mudar um ou dois pregões; o importante é justificar com topo/fundo ascendente e com a quebra.
 
 ## Como conferir no TradingView
-1. ALOS3, diário, de 01/10/2025 a 30/10/2026.
+1. ALOS3, diário, de 30/10/2025 a 30/10/2026 (deixe outubro/2025 visível para ver os fundos de 22/10 e 30/10).
 2. Para cada Dow, marque os dois fundos e o topo da tabela acima (ferramenta de linha horizontal) e veja o candle de compra fechar acima do topo.
 3. Marque o fundo da coluna "Por que vendeu" e veja o candle de venda fechar abaixo dele.
 4. Se algum preço diferir em centavos, use o do TradingView e atualize a planilha (as fórmulas recalculam).
