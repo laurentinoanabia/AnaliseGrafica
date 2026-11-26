@@ -14,7 +14,9 @@
 |---|---|---|---|
 | 1 | [ALOS3 — boleta](atividades/exercicio-01-alos3.md) | Boleta feita; análise gráfica a completar | S&R +17,57% × B&H −4,97% |
 | 2 | [ALOS3 — boleta Dow (Trade002)](atividades/exercicio-02-alos3-dow.md) | Boleta preenchida; conferir no TradingView | Dow +1,18% × B&H −4,97% |
+| 3 | Relatórios [ALOS3](atividades/exercicio-03-relatorio-alos3.md) e [TIMS3](atividades/exercicio-03-relatorio-tims3.md) + boletas | Prontos; conferir no TradingView | ALOS3: Dow +1,18% × B&H −4,97% · TIMS3: Dow −0,51% × B&H −23,26% |
 
 ## Diário
 - **2026-11-23** — Repositório criado com resumos dos caps. 3, 5, 6 e 7, notas de aula e o exercício 1 (ALOS3).
 - **2026-11-25** — Exercício 2 (Trade002): B&H, Teórica e Dow1–Dow5 da ALOS3 com dados diários do Yahoo Finance; planilha .xlsx.
+- **2026-11-26** — Exercício 3: relatórios no formato do slide (tendências, fases, volume, congestões/ângulo, boleta) para ALOS3 e TIMS3, com explicação da Teoria de Dow para iniciantes; dados diários desde 2024.
