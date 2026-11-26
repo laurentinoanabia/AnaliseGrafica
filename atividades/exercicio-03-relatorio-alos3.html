@@ -1,0 +1,552 @@
+<!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><title>Relatório ALOS3 – Tendências, Volume e Teoria de Dow</title><style>
+@page{size:A4;margin:13mm 14mm}
+*{box-sizing:border-box}
+body{font-family:Inter,sans-serif;font-size:9.4pt;line-height:1.34;color:#1d1d1f;margin:0}
+.cab{border:1.2px solid #1d1d1f;padding:6px 9px;display:flex;justify-content:space-between;font-size:8.6pt}
+.cab b{font-size:9.4pt}
+h1{font-size:15pt;margin:8px 0 2px}
+.lead{margin:2px 0 6px;font-size:10pt}
+h2{break-after:avoid;font-size:10.8pt;margin:9px 0 3px;border-bottom:1px solid #ccc;padding-bottom:1px}
+p{margin:3px 0}
+ul{margin:3px 0;padding-left:16px} li{margin:2px 0}
+table{break-inside:avoid;border-collapse:collapse;width:100%;font-size:8.6pt;margin:4px 0}
+th,td{border:1px solid #bbb;padding:2px 5px;text-align:center}
+th{background:#eef1f5}
+td.l{text-align:left}
+tr.tot td{font-weight:700;background:#f6f6f6}
+.box{border:1px solid #1f6fd1;background:#f3f7fd;padding:5px 9px;margin:6px 0}
+.box b.t{color:#1f6fd1}
+.fig{margin:2px 0 0} .cap{font-size:7.8pt;color:#666;margin:0 0 4px}
+.two{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.pb{break-before:page}
+</style></head><body>
+<div class="cab"><div><b>SALA DE AÇÕES – UFPB</b> · Programa de Trainee 2026 / Formação de Equipe<br>Mentoria de Análise Técnica · Prof. Dr. Sinézio Fernandes Maia</div><div style="text-align:right">Aluna: Ana Beatriz Laurentino<br><b>Ativo: ALOS3 (Allos)</b> · Janela: 30/10/2025 a 30/10/2026</div></div>
+<h1>Relatório ALOS3 – Tendências, Volume e Teoria de Dow</h1><p class="lead">Em resumo: a ALOS3 estava numa <b>tendência primária de alta</b> desde jan/2025, que terminou com uma euforia em outubro/2026 e um pânico na última semana da janela.</p>
+<div class="fig"><svg viewBox="0 0 760 230" xmlns="http://www.w3.org/2000/svg" font-family="Inter, sans-serif" font-size="9">
+<rect x="361.5" y="8" width="388.5" height="202" fill="#eef1f5"/>
+<line x1="40" x2="750" y1="166.0" y2="166.0" stroke="#e3e3e3"/><text x="36" y="169.0" text-anchor="end" fill="#777">16</text>
+<line x1="40" x2="750" y1="137.3" y2="137.3" stroke="#e3e3e3"/><text x="36" y="140.3" text-anchor="end" fill="#777">20</text>
+<line x1="40" x2="750" y1="108.5" y2="108.5" stroke="#e3e3e3"/><text x="36" y="111.5" text-anchor="end" fill="#777">24</text>
+<line x1="40" x2="750" y1="79.8" y2="79.8" stroke="#e3e3e3"/><text x="36" y="82.8" text-anchor="end" fill="#777">28</text>
+<line x1="40" x2="750" y1="51.1" y2="51.1" stroke="#e3e3e3"/><text x="36" y="54.1" text-anchor="end" fill="#777">32</text>
+<line x1="40" x2="750" y1="22.4" y2="22.4" stroke="#e3e3e3"/><text x="36" y="25.4" text-anchor="end" fill="#777">36</text>
+<text x="41.1" y="222" fill="#777">jan/25</text>
+<text x="135.8" y="222" fill="#777">abr/25</text>
+<text x="232.7" y="222" fill="#777">jul/25</text>
+<text x="330.6" y="222" fill="#777">out/25</text>
+<text x="429.6" y="222" fill="#777">jan/26</text>
+<text x="524.3" y="222" fill="#777">abr/26</text>
+<text x="621.2" y="222" fill="#777">jul/26</text>
+<text x="719.1" y="222" fill="#777">out/26</text>
+<polyline points="41.1,150.8 42.1,152.5 45.3,150.8 46.4,150.6 47.5,154.0 48.5,153.4 49.6,155.7 52.8,157.6 53.8,154.7 54.9,149.2 56.0,152.0 57.0,151.6 60.2,151.3 61.3,150.8 62.4,149.2 63.4,150.3 64.5,151.9 67.7,147.0 68.7,146.8 69.8,147.4 70.9,142.4 71.9,144.5 75.1,143.7 76.2,143.4 77.3,143.6 78.3,143.3 79.4,143.7 82.6,142.6 83.6,142.1 84.7,143.0 85.8,143.8 86.8,140.9 90.0,138.4 91.1,140.6 92.2,142.7 93.2,143.2 94.3,143.3 97.5,148.3 98.5,147.2 99.6,148.7 100.7,149.6 101.7,151.0 107.1,153.1 108.1,150.7 109.2,149.1 112.4,149.4 113.4,150.9 114.5,150.0 115.6,148.0 116.6,143.9 119.8,141.2 120.9,140.3 122.0,139.4 123.0,141.4 124.1,139.7 127.3,142.7 128.4,140.7 129.4,140.6 130.5,141.0 131.5,142.7 134.7,143.5 135.8,144.0 136.9,141.4 137.9,135.5 139.0,141.4 142.2,143.4 143.3,143.1 144.3,140.3 145.4,139.9 146.4,139.1 149.6,136.8 150.7,137.3 151.8,137.6 152.8,135.8 158.2,135.6 159.2,133.7 160.3,129.4 161.3,129.2 164.5,129.2 165.6,128.9 166.7,128.2 168.8,126.1 172.0,128.0 173.1,128.6 174.1,130.2 175.2,126.1 176.3,127.0 179.4,128.9 180.5,124.8 181.6,126.5 182.6,124.1 183.7,124.5 186.9,122.4 188.0,121.5 189.0,124.8 190.1,125.8 191.2,125.3 194.3,124.5 195.4,122.2 196.5,121.1 197.5,120.3 198.6,121.3 201.8,122.2 202.9,120.9 203.9,121.8 205.0,123.3 206.1,124.1 209.3,125.6 210.3,124.5 211.4,125.6 212.4,125.2 213.5,126.6 216.7,125.4 217.8,123.9 218.8,125.1 221.0,127.5 224.2,126.3 225.2,121.0 226.3,121.7 227.3,118.9 228.4,119.0 231.6,117.7 232.7,116.6 233.7,120.0 234.8,118.2 235.9,116.8 239.1,120.3 240.1,120.5 241.2,123.2 242.2,124.0 243.3,125.5 246.5,125.5 247.6,123.7 248.6,122.7 249.7,121.3 250.8,125.3 254.0,125.9 255.0,128.2 256.1,126.4 257.2,128.4 258.2,128.2 261.4,129.7 262.5,128.6 263.5,127.1 264.6,127.9 265.7,126.2 268.9,126.2 269.9,125.9 271.0,123.3 272.1,121.3 273.1,120.5 276.3,119.9 277.4,116.9 278.4,117.7 279.5,116.7 280.6,116.7 283.8,114.6 284.8,118.0 285.9,118.2 287.0,118.7 288.0,115.4 291.2,115.8 292.3,117.0 293.3,113.8 294.4,109.2 295.5,108.8 298.7,108.8 299.7,110.0 300.8,109.8 301.9,107.1 302.9,105.0 306.1,106.6 307.2,107.4 308.2,107.0 309.3,104.5 310.4,105.7 313.6,105.2 314.6,102.5 315.7,99.7 316.8,99.2 317.8,99.1 321.0,100.7 322.1,95.6 323.1,97.6 324.2,98.0 325.3,97.7 328.5,95.2 329.5,95.4 330.6,97.0 331.7,99.8 332.7,99.9 335.9,103.2 337.0,106.2 338.1,105.5 339.1,106.9 340.2,108.6 343.4,108.1 344.4,110.1 345.5,107.2 346.6,109.0 347.6,108.0 350.8,106.6 351.9,106.4 353.0,106.4 354.0,105.7 355.1,104.7 358.3,103.5 359.3,105.5 360.4,104.7 361.5,103.3 362.5,101.7 365.7,101.6 366.8,99.6 367.9,94.5 368.9,93.0 370.0,93.3 373.2,91.2 374.2,88.3 375.3,86.4 376.4,77.4 377.4,74.0 380.6,79.9 381.7,80.6 382.8,84.6 384.9,87.3 388.1,81.5 389.1,79.6 390.2,80.1 391.3,80.3 392.3,77.3 395.5,77.0 396.6,72.8 397.7,71.9 398.7,67.6 399.8,85.3 403.0,83.0 404.0,80.0 405.1,77.2 406.2,75.1 407.2,71.6 410.4,69.8 411.5,77.5 412.6,81.5 413.6,80.5 414.7,79.8 417.9,84.3 419.0,79.1 422.1,77.8 425.3,79.0 426.4,77.2 429.6,75.9 432.8,75.2 433.9,72.1 434.9,74.3 436.0,73.3 437.0,70.9 440.2,69.5 441.3,73.1 442.4,72.9 443.4,70.8 444.5,74.4 447.7,76.7 448.8,76.2 449.8,71.6 450.9,69.8 451.9,67.1 455.1,66.7 456.2,61.9 457.3,57.1 458.3,59.9 459.4,59.0 462.6,56.3 463.7,53.6 464.7,58.2 465.8,54.9 466.9,54.1 470.0,54.6 471.1,56.2 472.2,54.4 473.2,57.2 474.3,60.6 479.6,58.8 480.7,53.7 481.8,52.0 484.9,52.7 486.0,50.8 487.1,50.2 488.1,44.8 489.2,46.1 492.4,49.4 493.5,55.6 494.5,50.9 495.6,57.2 496.7,60.6 499.9,59.3 500.9,59.1 502.0,63.8 503.0,69.3 504.1,73.2 507.3,69.0 508.4,68.7 509.4,67.4 510.5,67.2 511.6,74.1 514.8,66.2 515.8,66.5 516.9,63.4 517.9,68.3 519.0,71.2 522.2,72.6 523.3,63.0 524.3,58.4 525.4,63.3 529.7,62.1 530.7,61.6 531.8,53.0 532.8,49.0 533.9,44.6 537.1,42.9 538.2,41.8 539.2,39.8 540.3,42.0 541.4,38.2 544.6,40.3 546.7,44.9 547.8,51.9 548.8,53.9 552.0,56.3 553.1,58.3 554.1,64.6 555.2,60.8 559.5,63.8 560.5,63.0 561.6,56.8 562.7,63.4 563.7,62.9 566.9,66.9 568.0,69.8 569.0,76.6 570.1,73.6 571.2,74.5 574.4,75.2 575.4,79.4 576.5,75.1 577.6,74.6 578.6,79.0 581.8,74.1 582.9,74.9 583.9,75.9 585.0,75.3 586.1,78.3 589.3,81.4 590.3,82.5 591.4,85.0 593.5,87.4 596.7,88.0 597.8,87.0 598.8,89.3 599.9,85.6 601.0,86.5 604.2,89.9 605.2,88.7 606.3,90.8 607.4,89.6 608.4,90.2 611.6,86.1 612.7,87.4 613.7,86.6 614.8,82.0 615.9,79.5 619.1,79.4 620.1,79.4 621.2,79.8 622.3,79.1 623.3,78.4 626.5,82.5 627.6,85.8 628.7,87.4 629.7,82.0 630.8,74.8 634.0,79.0 635.0,78.1 636.1,78.2 637.2,81.3 638.2,84.7 641.4,84.8 642.5,86.3 643.6,83.6 644.6,87.5 645.7,92.8 648.9,88.5 649.9,86.0 651.0,90.0 652.1,85.4 653.1,86.4 656.3,84.2 657.4,82.9 658.5,83.5 659.5,87.0 660.6,87.4 663.8,86.6 664.8,93.8 665.9,92.6 667.0,93.7 668.0,96.4 671.2,98.2 672.3,98.7 673.4,96.6 674.4,98.2 675.5,93.6 678.7,94.1 679.7,90.2 680.8,91.1 681.9,92.7 682.9,91.2 686.1,89.2 687.2,84.7 688.3,76.0 689.3,72.5 690.4,74.0 694.6,71.1 695.7,76.1 696.8,72.1 697.8,75.3 701.0,76.7 702.1,76.0 703.2,76.5 704.2,77.7 705.3,73.6 708.5,67.6 709.6,67.5 710.6,70.2 711.7,71.8 712.7,72.8 715.9,75.7 717.0,74.3 718.1,69.1 719.1,68.0 720.2,61.8 723.4,43.5 724.5,34.6 725.5,33.4 726.6,28.6 727.6,23.6 731.9,31.0 733.0,31.6 734.0,32.1 735.1,33.1 738.3,30.4 739.4,24.5 740.4,27.7 741.5,30.6 742.5,28.5 745.7,92.8 746.8,95.3 747.9,104.9 748.9,111.8 750.0,112.1" fill="none" stroke="#555" stroke-width="1.1"/>
+<rect x="41.1" y="203.3" width="1" height="6.7" fill="#b9c2cc"/>
+<rect x="42.1" y="204.6" width="1" height="5.4" fill="#b9c2cc"/>
+<rect x="45.3" y="206.7" width="1" height="3.3" fill="#b9c2cc"/>
+<rect x="46.4" y="204.7" width="1" height="5.3" fill="#b9c2cc"/>
+<rect x="47.5" y="206.0" width="1" height="4.0" fill="#b9c2cc"/>
+<rect x="48.5" y="207.6" width="1" height="2.4" fill="#b9c2cc"/>
+<rect x="49.6" y="205.4" width="1" height="4.6" fill="#b9c2cc"/>
+<rect x="52.8" y="207.0" width="1" height="3.0" fill="#b9c2cc"/>
+<rect x="53.8" y="204.2" width="1" height="5.8" fill="#b9c2cc"/>
+<rect x="54.9" y="200.7" width="1" height="9.3" fill="#b9c2cc"/>
+<rect x="56.0" y="205.7" width="1" height="4.3" fill="#b9c2cc"/>
+<rect x="57.0" y="207.0" width="1" height="3.0" fill="#b9c2cc"/>
+<rect x="60.2" y="206.7" width="1" height="3.3" fill="#b9c2cc"/>
+<rect x="61.3" y="207.9" width="1" height="2.1" fill="#b9c2cc"/>
+<rect x="62.4" y="205.4" width="1" height="4.6" fill="#b9c2cc"/>
+<rect x="63.4" y="206.4" width="1" height="3.6" fill="#b9c2cc"/>
+<rect x="64.5" y="207.3" width="1" height="2.7" fill="#b9c2cc"/>
+<rect x="67.7" y="205.8" width="1" height="4.2" fill="#b9c2cc"/>
+<rect x="68.7" y="207.6" width="1" height="2.4" fill="#b9c2cc"/>
+<rect x="69.8" y="207.5" width="1" height="2.5" fill="#b9c2cc"/>
+<rect x="70.9" y="203.8" width="1" height="6.2" fill="#b9c2cc"/>
+<rect x="71.9" y="205.2" width="1" height="4.8" fill="#b9c2cc"/>
+<rect x="75.1" y="207.1" width="1" height="2.9" fill="#b9c2cc"/>
+<rect x="76.2" y="207.2" width="1" height="2.8" fill="#b9c2cc"/>
+<rect x="77.3" y="207.9" width="1" height="2.1" fill="#b9c2cc"/>
+<rect x="78.3" y="207.4" width="1" height="2.6" fill="#b9c2cc"/>
+<rect x="79.4" y="206.3" width="1" height="3.7" fill="#b9c2cc"/>
+<rect x="82.6" y="206.6" width="1" height="3.4" fill="#b9c2cc"/>
+<rect x="83.6" y="207.5" width="1" height="2.5" fill="#b9c2cc"/>
+<rect x="84.7" y="206.6" width="1" height="3.4" fill="#b9c2cc"/>
+<rect x="85.8" y="206.2" width="1" height="3.8" fill="#b9c2cc"/>
+<rect x="86.8" y="203.4" width="1" height="6.6" fill="#b9c2cc"/>
+<rect x="90.0" y="205.7" width="1" height="4.3" fill="#b9c2cc"/>
+<rect x="91.1" y="207.1" width="1" height="2.9" fill="#b9c2cc"/>
+<rect x="92.2" y="205.6" width="1" height="4.4" fill="#b9c2cc"/>
+<rect x="93.2" y="208.1" width="1" height="1.9" fill="#b9c2cc"/>
+<rect x="94.3" y="207.4" width="1" height="2.6" fill="#b9c2cc"/>
+<rect x="97.5" y="206.4" width="1" height="3.6" fill="#b9c2cc"/>
+<rect x="98.5" y="207.9" width="1" height="2.1" fill="#b9c2cc"/>
+<rect x="99.6" y="206.7" width="1" height="3.3" fill="#b9c2cc"/>
+<rect x="100.7" y="205.7" width="1" height="4.3" fill="#b9c2cc"/>
+<rect x="101.7" y="205.1" width="1" height="4.9" fill="#b9c2cc"/>
+<rect x="107.1" y="205.7" width="1" height="4.3" fill="#b9c2cc"/>
+<rect x="108.1" y="204.8" width="1" height="5.2" fill="#b9c2cc"/>
+<rect x="109.2" y="206.4" width="1" height="3.6" fill="#b9c2cc"/>
+<rect x="112.4" y="207.3" width="1" height="2.7" fill="#b9c2cc"/>
+<rect x="113.4" y="207.0" width="1" height="3.0" fill="#b9c2cc"/>
+<rect x="114.5" y="207.1" width="1" height="2.9" fill="#b9c2cc"/>
+<rect x="115.6" y="206.2" width="1" height="3.8" fill="#b9c2cc"/>
+<rect x="116.6" y="205.6" width="1" height="4.4" fill="#b9c2cc"/>
+<rect x="119.8" y="206.3" width="1" height="3.7" fill="#b9c2cc"/>
+<rect x="120.9" y="206.3" width="1" height="3.7" fill="#b9c2cc"/>
+<rect x="122.0" y="205.9" width="1" height="4.1" fill="#b9c2cc"/>
+<rect x="123.0" y="207.0" width="1" height="3.0" fill="#b9c2cc"/>
+<rect x="124.1" y="204.9" width="1" height="5.1" fill="#b9c2cc"/>
+<rect x="127.3" y="207.5" width="1" height="2.5" fill="#b9c2cc"/>
+<rect x="128.4" y="208.1" width="1" height="1.9" fill="#b9c2cc"/>
+<rect x="129.4" y="207.0" width="1" height="3.0" fill="#b9c2cc"/>
+<rect x="130.5" y="207.1" width="1" height="2.9" fill="#b9c2cc"/>
+<rect x="131.5" y="206.9" width="1" height="3.1" fill="#b9c2cc"/>
+<rect x="134.7" y="207.2" width="1" height="2.8" fill="#b9c2cc"/>
+<rect x="135.8" y="206.9" width="1" height="3.1" fill="#b9c2cc"/>
+<rect x="136.9" y="206.3" width="1" height="3.7" fill="#b9c2cc"/>
+<rect x="137.9" y="202.3" width="1" height="7.7" fill="#b9c2cc"/>
+<rect x="139.0" y="206.6" width="1" height="3.4" fill="#b9c2cc"/>
+<rect x="142.2" y="206.7" width="1" height="3.3" fill="#b9c2cc"/>
+<rect x="143.3" y="206.9" width="1" height="3.1" fill="#b9c2cc"/>
+<rect x="144.3" y="205.7" width="1" height="4.3" fill="#b9c2cc"/>
+<rect x="145.4" y="207.2" width="1" height="2.8" fill="#b9c2cc"/>
+<rect x="146.4" y="206.9" width="1" height="3.1" fill="#b9c2cc"/>
+<rect x="149.6" y="206.0" width="1" height="4.0" fill="#b9c2cc"/>
+<rect x="150.7" y="206.1" width="1" height="3.9" fill="#b9c2cc"/>
+<rect x="151.8" y="206.6" width="1" height="3.4" fill="#b9c2cc"/>
+<rect x="152.8" y="206.3" width="1" height="3.7" fill="#b9c2cc"/>
+<rect x="158.2" y="206.9" width="1" height="3.1" fill="#b9c2cc"/>
+<rect x="159.2" y="206.9" width="1" height="3.1" fill="#b9c2cc"/>
+<rect x="160.3" y="206.1" width="1" height="3.9" fill="#b9c2cc"/>
+<rect x="161.3" y="205.0" width="1" height="5.0" fill="#b9c2cc"/>
+<rect x="164.5" y="207.3" width="1" height="2.7" fill="#b9c2cc"/>
+<rect x="165.6" y="206.3" width="1" height="3.7" fill="#b9c2cc"/>
+<rect x="166.7" y="207.3" width="1" height="2.7" fill="#b9c2cc"/>
+<rect x="168.8" y="206.0" width="1" height="4.0" fill="#b9c2cc"/>
+<rect x="172.0" y="207.6" width="1" height="2.4" fill="#b9c2cc"/>
+<rect x="173.1" y="208.2" width="1" height="1.8" fill="#b9c2cc"/>
+<rect x="174.1" y="208.3" width="1" height="1.7" fill="#b9c2cc"/>
+<rect x="175.2" y="206.0" width="1" height="4.0" fill="#b9c2cc"/>
+<rect x="176.3" y="207.0" width="1" height="3.0" fill="#b9c2cc"/>
+<rect x="179.4" y="207.3" width="1" height="2.7" fill="#b9c2cc"/>
+<rect x="180.5" y="205.2" width="1" height="4.8" fill="#b9c2cc"/>
+<rect x="181.6" y="205.8" width="1" height="4.2" fill="#b9c2cc"/>
+<rect x="182.6" y="205.7" width="1" height="4.3" fill="#b9c2cc"/>
+<rect x="183.7" y="207.0" width="1" height="3.0" fill="#b9c2cc"/>
+<rect x="186.9" y="207.4" width="1" height="2.6" fill="#b9c2cc"/>
+<rect x="188.0" y="208.3" width="1" height="1.7" fill="#b9c2cc"/>
+<rect x="189.0" y="207.7" width="1" height="2.3" fill="#b9c2cc"/>
+<rect x="190.1" y="206.1" width="1" height="3.9" fill="#b9c2cc"/>
+<rect x="191.2" y="206.5" width="1" height="3.5" fill="#b9c2cc"/>
+<rect x="194.3" y="209.0" width="1" height="1.0" fill="#b9c2cc"/>
+<rect x="195.4" y="206.3" width="1" height="3.7" fill="#b9c2cc"/>
+<rect x="196.5" y="206.6" width="1" height="3.4" fill="#b9c2cc"/>
+<rect x="197.5" y="206.4" width="1" height="3.6" fill="#b9c2cc"/>
+<rect x="198.6" y="206.6" width="1" height="3.4" fill="#b9c2cc"/>
+<rect x="201.8" y="207.9" width="1" height="2.1" fill="#b9c2cc"/>
+<rect x="202.9" y="207.1" width="1" height="2.9" fill="#b9c2cc"/>
+<rect x="203.9" y="207.4" width="1" height="2.6" fill="#b9c2cc"/>
+<rect x="205.0" y="205.5" width="1" height="4.5" fill="#b9c2cc"/>
+<rect x="206.1" y="206.6" width="1" height="3.4" fill="#b9c2cc"/>
+<rect x="209.3" y="206.7" width="1" height="3.3" fill="#b9c2cc"/>
+<rect x="210.3" y="207.1" width="1" height="2.9" fill="#b9c2cc"/>
+<rect x="211.4" y="207.6" width="1" height="2.4" fill="#b9c2cc"/>
+<rect x="212.4" y="207.0" width="1" height="3.0" fill="#b9c2cc"/>
+<rect x="213.5" y="206.8" width="1" height="3.2" fill="#b9c2cc"/>
+<rect x="216.7" y="206.6" width="1" height="3.4" fill="#b9c2cc"/>
+<rect x="217.8" y="204.5" width="1" height="5.5" fill="#b9c2cc"/>
+<rect x="218.8" y="205.8" width="1" height="4.2" fill="#b9c2cc"/>
+<rect x="221.0" y="204.3" width="1" height="5.7" fill="#b9c2cc"/>
+<rect x="224.2" y="206.9" width="1" height="3.1" fill="#b9c2cc"/>
+<rect x="225.2" y="205.2" width="1" height="4.8" fill="#b9c2cc"/>
+<rect x="226.3" y="206.1" width="1" height="3.9" fill="#b9c2cc"/>
+<rect x="227.3" y="206.2" width="1" height="3.8" fill="#b9c2cc"/>
+<rect x="228.4" y="207.9" width="1" height="2.1" fill="#b9c2cc"/>
+<rect x="231.6" y="206.8" width="1" height="3.2" fill="#b9c2cc"/>
+<rect x="232.7" y="206.7" width="1" height="3.3" fill="#b9c2cc"/>
+<rect x="233.7" y="205.6" width="1" height="4.4" fill="#b9c2cc"/>
+<rect x="234.8" y="208.5" width="1" height="1.5" fill="#b9c2cc"/>
+<rect x="235.9" y="208.3" width="1" height="1.7" fill="#b9c2cc"/>
+<rect x="239.1" y="204.2" width="1" height="5.8" fill="#b9c2cc"/>
+<rect x="240.1" y="207.1" width="1" height="2.9" fill="#b9c2cc"/>
+<rect x="241.2" y="206.6" width="1" height="3.4" fill="#b9c2cc"/>
+<rect x="242.2" y="206.4" width="1" height="3.6" fill="#b9c2cc"/>
+<rect x="243.3" y="207.0" width="1" height="3.0" fill="#b9c2cc"/>
+<rect x="246.5" y="207.4" width="1" height="2.6" fill="#b9c2cc"/>
+<rect x="247.6" y="203.6" width="1" height="6.4" fill="#b9c2cc"/>
+<rect x="248.6" y="204.1" width="1" height="5.9" fill="#b9c2cc"/>
+<rect x="249.7" y="206.2" width="1" height="3.8" fill="#b9c2cc"/>
+<rect x="250.8" y="203.1" width="1" height="6.9" fill="#b9c2cc"/>
+<rect x="254.0" y="206.8" width="1" height="3.2" fill="#b9c2cc"/>
+<rect x="255.0" y="204.5" width="1" height="5.5" fill="#b9c2cc"/>
+<rect x="256.1" y="207.5" width="1" height="2.5" fill="#b9c2cc"/>
+<rect x="257.2" y="208.1" width="1" height="1.9" fill="#b9c2cc"/>
+<rect x="258.2" y="208.3" width="1" height="1.7" fill="#b9c2cc"/>
+<rect x="261.4" y="207.1" width="1" height="2.9" fill="#b9c2cc"/>
+<rect x="262.5" y="207.1" width="1" height="2.9" fill="#b9c2cc"/>
+<rect x="263.5" y="206.1" width="1" height="3.9" fill="#b9c2cc"/>
+<rect x="264.6" y="206.1" width="1" height="3.9" fill="#b9c2cc"/>
+<rect x="265.7" y="204.1" width="1" height="5.9" fill="#b9c2cc"/>
+<rect x="268.9" y="207.7" width="1" height="2.3" fill="#b9c2cc"/>
+<rect x="269.9" y="205.4" width="1" height="4.6" fill="#b9c2cc"/>
+<rect x="271.0" y="206.6" width="1" height="3.4" fill="#b9c2cc"/>
+<rect x="272.1" y="205.9" width="1" height="4.1" fill="#b9c2cc"/>
+<rect x="273.1" y="204.8" width="1" height="5.2" fill="#b9c2cc"/>
+<rect x="276.3" y="206.6" width="1" height="3.4" fill="#b9c2cc"/>
+<rect x="277.4" y="206.3" width="1" height="3.7" fill="#b9c2cc"/>
+<rect x="278.4" y="205.9" width="1" height="4.1" fill="#b9c2cc"/>
+<rect x="279.5" y="206.1" width="1" height="3.9" fill="#b9c2cc"/>
+<rect x="280.6" y="207.7" width="1" height="2.3" fill="#b9c2cc"/>
+<rect x="283.8" y="207.2" width="1" height="2.8" fill="#b9c2cc"/>
+<rect x="284.8" y="207.0" width="1" height="3.0" fill="#b9c2cc"/>
+<rect x="285.9" y="206.6" width="1" height="3.4" fill="#b9c2cc"/>
+<rect x="287.0" y="205.7" width="1" height="4.3" fill="#b9c2cc"/>
+<rect x="288.0" y="205.7" width="1" height="4.3" fill="#b9c2cc"/>
+<rect x="291.2" y="204.9" width="1" height="5.1" fill="#b9c2cc"/>
+<rect x="292.3" y="207.2" width="1" height="2.8" fill="#b9c2cc"/>
+<rect x="293.3" y="206.3" width="1" height="3.7" fill="#b9c2cc"/>
+<rect x="294.4" y="202.9" width="1" height="7.1" fill="#b9c2cc"/>
+<rect x="295.5" y="207.7" width="1" height="2.3" fill="#b9c2cc"/>
+<rect x="298.7" y="208.4" width="1" height="1.6" fill="#b9c2cc"/>
+<rect x="299.7" y="208.1" width="1" height="1.9" fill="#b9c2cc"/>
+<rect x="300.8" y="208.0" width="1" height="2.0" fill="#b9c2cc"/>
+<rect x="301.9" y="207.0" width="1" height="3.0" fill="#b9c2cc"/>
+<rect x="302.9" y="206.6" width="1" height="3.4" fill="#b9c2cc"/>
+<rect x="306.1" y="208.0" width="1" height="2.0" fill="#b9c2cc"/>
+<rect x="307.2" y="208.5" width="1" height="1.5" fill="#b9c2cc"/>
+<rect x="308.2" y="208.0" width="1" height="2.0" fill="#b9c2cc"/>
+<rect x="309.3" y="208.5" width="1" height="1.5" fill="#b9c2cc"/>
+<rect x="310.4" y="208.5" width="1" height="1.5" fill="#b9c2cc"/>
+<rect x="313.6" y="207.0" width="1" height="3.0" fill="#b9c2cc"/>
+<rect x="314.6" y="207.7" width="1" height="2.3" fill="#b9c2cc"/>
+<rect x="315.7" y="206.3" width="1" height="3.7" fill="#b9c2cc"/>
+<rect x="316.8" y="207.1" width="1" height="2.9" fill="#b9c2cc"/>
+<rect x="317.8" y="206.1" width="1" height="3.9" fill="#b9c2cc"/>
+<rect x="321.0" y="208.1" width="1" height="1.9" fill="#b9c2cc"/>
+<rect x="322.1" y="204.5" width="1" height="5.5" fill="#b9c2cc"/>
+<rect x="323.1" y="205.2" width="1" height="4.8" fill="#b9c2cc"/>
+<rect x="324.2" y="207.4" width="1" height="2.6" fill="#b9c2cc"/>
+<rect x="325.3" y="208.2" width="1" height="1.8" fill="#b9c2cc"/>
+<rect x="328.5" y="207.9" width="1" height="2.1" fill="#b9c2cc"/>
+<rect x="329.5" y="207.3" width="1" height="2.7" fill="#b9c2cc"/>
+<rect x="330.6" y="207.6" width="1" height="2.4" fill="#b9c2cc"/>
+<rect x="331.7" y="207.9" width="1" height="2.1" fill="#b9c2cc"/>
+<rect x="332.7" y="207.8" width="1" height="2.2" fill="#b9c2cc"/>
+<rect x="335.9" y="207.3" width="1" height="2.7" fill="#b9c2cc"/>
+<rect x="337.0" y="204.3" width="1" height="5.7" fill="#b9c2cc"/>
+<rect x="338.1" y="207.9" width="1" height="2.1" fill="#b9c2cc"/>
+<rect x="339.1" y="207.3" width="1" height="2.7" fill="#b9c2cc"/>
+<rect x="340.2" y="207.7" width="1" height="2.3" fill="#b9c2cc"/>
+<rect x="343.4" y="208.5" width="1" height="1.5" fill="#b9c2cc"/>
+<rect x="344.4" y="207.6" width="1" height="2.4" fill="#b9c2cc"/>
+<rect x="345.5" y="205.4" width="1" height="4.6" fill="#b9c2cc"/>
+<rect x="346.6" y="207.6" width="1" height="2.4" fill="#b9c2cc"/>
+<rect x="347.6" y="207.9" width="1" height="2.1" fill="#b9c2cc"/>
+<rect x="350.8" y="206.6" width="1" height="3.4" fill="#b9c2cc"/>
+<rect x="351.9" y="207.5" width="1" height="2.5" fill="#b9c2cc"/>
+<rect x="353.0" y="207.5" width="1" height="2.5" fill="#b9c2cc"/>
+<rect x="354.0" y="208.0" width="1" height="2.0" fill="#b9c2cc"/>
+<rect x="355.1" y="208.1" width="1" height="1.9" fill="#b9c2cc"/>
+<rect x="358.3" y="207.3" width="1" height="2.7" fill="#b9c2cc"/>
+<rect x="359.3" y="207.7" width="1" height="2.3" fill="#b9c2cc"/>
+<rect x="360.4" y="207.7" width="1" height="2.3" fill="#b9c2cc"/>
+<rect x="361.5" y="209.0" width="1" height="1.0" fill="#b9c2cc"/>
+<rect x="362.5" y="204.8" width="1" height="5.2" fill="#b9c2cc"/>
+<rect x="365.7" y="204.9" width="1" height="5.1" fill="#b9c2cc"/>
+<rect x="366.8" y="207.9" width="1" height="2.1" fill="#b9c2cc"/>
+<rect x="367.9" y="207.1" width="1" height="2.9" fill="#b9c2cc"/>
+<rect x="368.9" y="207.8" width="1" height="2.2" fill="#b9c2cc"/>
+<rect x="370.0" y="208.5" width="1" height="1.5" fill="#b9c2cc"/>
+<rect x="373.2" y="207.3" width="1" height="2.7" fill="#b9c2cc"/>
+<rect x="374.2" y="206.4" width="1" height="3.6" fill="#b9c2cc"/>
+<rect x="375.3" y="206.0" width="1" height="4.0" fill="#b9c2cc"/>
+<rect x="376.4" y="197.9" width="1" height="12.1" fill="#b9c2cc"/>
+<rect x="377.4" y="200.5" width="1" height="9.5" fill="#b9c2cc"/>
+<rect x="380.6" y="205.8" width="1" height="4.2" fill="#b9c2cc"/>
+<rect x="381.7" y="206.6" width="1" height="3.4" fill="#b9c2cc"/>
+<rect x="382.8" y="207.3" width="1" height="2.7" fill="#b9c2cc"/>
+<rect x="384.9" y="206.9" width="1" height="3.1" fill="#b9c2cc"/>
+<rect x="388.1" y="205.9" width="1" height="4.1" fill="#b9c2cc"/>
+<rect x="389.1" y="207.2" width="1" height="2.8" fill="#b9c2cc"/>
+<rect x="390.2" y="203.5" width="1" height="6.5" fill="#b9c2cc"/>
+<rect x="391.3" y="207.9" width="1" height="2.1" fill="#b9c2cc"/>
+<rect x="392.3" y="205.1" width="1" height="4.9" fill="#b9c2cc"/>
+<rect x="395.5" y="202.0" width="1" height="8.0" fill="#b9c2cc"/>
+<rect x="396.6" y="206.3" width="1" height="3.7" fill="#b9c2cc"/>
+<rect x="397.7" y="206.5" width="1" height="3.5" fill="#b9c2cc"/>
+<rect x="398.7" y="205.4" width="1" height="4.6" fill="#b9c2cc"/>
+<rect x="399.8" y="176.0" width="1" height="34.0" fill="#b9c2cc"/>
+<rect x="403.0" y="205.7" width="1" height="4.3" fill="#b9c2cc"/>
+<rect x="404.0" y="203.3" width="1" height="6.7" fill="#b9c2cc"/>
+<rect x="405.1" y="204.6" width="1" height="5.4" fill="#b9c2cc"/>
+<rect x="406.2" y="205.2" width="1" height="4.8" fill="#b9c2cc"/>
+<rect x="407.2" y="202.6" width="1" height="7.4" fill="#b9c2cc"/>
+<rect x="410.4" y="200.1" width="1" height="9.9" fill="#b9c2cc"/>
+<rect x="411.5" y="204.2" width="1" height="5.8" fill="#b9c2cc"/>
+<rect x="412.6" y="202.7" width="1" height="7.3" fill="#b9c2cc"/>
+<rect x="413.6" y="205.4" width="1" height="4.6" fill="#b9c2cc"/>
+<rect x="414.7" y="205.2" width="1" height="4.8" fill="#b9c2cc"/>
+<rect x="417.9" y="205.4" width="1" height="4.6" fill="#b9c2cc"/>
+<rect x="419.0" y="202.0" width="1" height="8.0" fill="#b9c2cc"/>
+<rect x="422.1" y="208.2" width="1" height="1.8" fill="#b9c2cc"/>
+<rect x="425.3" y="207.4" width="1" height="2.6" fill="#b9c2cc"/>
+<rect x="426.4" y="206.8" width="1" height="3.2" fill="#b9c2cc"/>
+<rect x="429.6" y="202.9" width="1" height="7.1" fill="#b9c2cc"/>
+<rect x="432.8" y="206.6" width="1" height="3.4" fill="#b9c2cc"/>
+<rect x="433.9" y="206.4" width="1" height="3.6" fill="#b9c2cc"/>
+<rect x="434.9" y="206.5" width="1" height="3.5" fill="#b9c2cc"/>
+<rect x="436.0" y="203.6" width="1" height="6.4" fill="#b9c2cc"/>
+<rect x="437.0" y="203.9" width="1" height="6.1" fill="#b9c2cc"/>
+<rect x="440.2" y="206.4" width="1" height="3.6" fill="#b9c2cc"/>
+<rect x="441.3" y="205.9" width="1" height="4.1" fill="#b9c2cc"/>
+<rect x="442.4" y="207.0" width="1" height="3.0" fill="#b9c2cc"/>
+<rect x="443.4" y="206.5" width="1" height="3.5" fill="#b9c2cc"/>
+<rect x="444.5" y="205.5" width="1" height="4.5" fill="#b9c2cc"/>
+<rect x="447.7" y="207.7" width="1" height="2.3" fill="#b9c2cc"/>
+<rect x="448.8" y="208.0" width="1" height="2.0" fill="#b9c2cc"/>
+<rect x="449.8" y="204.9" width="1" height="5.1" fill="#b9c2cc"/>
+<rect x="450.9" y="201.2" width="1" height="8.8" fill="#b9c2cc"/>
+<rect x="451.9" y="205.3" width="1" height="4.7" fill="#b9c2cc"/>
+<rect x="455.1" y="207.2" width="1" height="2.8" fill="#b9c2cc"/>
+<rect x="456.2" y="206.0" width="1" height="4.0" fill="#b9c2cc"/>
+<rect x="457.3" y="204.7" width="1" height="5.3" fill="#b9c2cc"/>
+<rect x="458.3" y="203.9" width="1" height="6.1" fill="#b9c2cc"/>
+<rect x="459.4" y="204.2" width="1" height="5.8" fill="#b9c2cc"/>
+<rect x="462.6" y="205.2" width="1" height="4.8" fill="#b9c2cc"/>
+<rect x="463.7" y="201.6" width="1" height="8.4" fill="#b9c2cc"/>
+<rect x="464.7" y="205.2" width="1" height="4.8" fill="#b9c2cc"/>
+<rect x="465.8" y="205.0" width="1" height="5.0" fill="#b9c2cc"/>
+<rect x="466.9" y="204.5" width="1" height="5.5" fill="#b9c2cc"/>
+<rect x="470.0" y="205.3" width="1" height="4.7" fill="#b9c2cc"/>
+<rect x="471.1" y="206.6" width="1" height="3.4" fill="#b9c2cc"/>
+<rect x="472.2" y="204.6" width="1" height="5.4" fill="#b9c2cc"/>
+<rect x="473.2" y="203.7" width="1" height="6.3" fill="#b9c2cc"/>
+<rect x="474.3" y="202.5" width="1" height="7.5" fill="#b9c2cc"/>
+<rect x="479.6" y="204.1" width="1" height="5.9" fill="#b9c2cc"/>
+<rect x="480.7" y="205.9" width="1" height="4.1" fill="#b9c2cc"/>
+<rect x="481.8" y="206.3" width="1" height="3.7" fill="#b9c2cc"/>
+<rect x="484.9" y="207.4" width="1" height="2.6" fill="#b9c2cc"/>
+<rect x="486.0" y="203.7" width="1" height="6.3" fill="#b9c2cc"/>
+<rect x="487.1" y="206.7" width="1" height="3.3" fill="#b9c2cc"/>
+<rect x="488.1" y="202.9" width="1" height="7.1" fill="#b9c2cc"/>
+<rect x="489.2" y="205.7" width="1" height="4.3" fill="#b9c2cc"/>
+<rect x="492.4" y="206.2" width="1" height="3.8" fill="#b9c2cc"/>
+<rect x="493.5" y="203.2" width="1" height="6.8" fill="#b9c2cc"/>
+<rect x="494.5" y="206.8" width="1" height="3.2" fill="#b9c2cc"/>
+<rect x="495.6" y="207.0" width="1" height="3.0" fill="#b9c2cc"/>
+<rect x="496.7" y="206.1" width="1" height="3.9" fill="#b9c2cc"/>
+<rect x="499.9" y="205.6" width="1" height="4.4" fill="#b9c2cc"/>
+<rect x="500.9" y="203.8" width="1" height="6.2" fill="#b9c2cc"/>
+<rect x="502.0" y="187.3" width="1" height="22.7" fill="#b9c2cc"/>
+<rect x="503.0" y="202.4" width="1" height="7.6" fill="#b9c2cc"/>
+<rect x="504.1" y="202.7" width="1" height="7.3" fill="#b9c2cc"/>
+<rect x="507.3" y="204.7" width="1" height="5.3" fill="#b9c2cc"/>
+<rect x="508.4" y="202.7" width="1" height="7.3" fill="#b9c2cc"/>
+<rect x="509.4" y="203.4" width="1" height="6.6" fill="#b9c2cc"/>
+<rect x="510.5" y="206.0" width="1" height="4.0" fill="#b9c2cc"/>
+<rect x="511.6" y="205.0" width="1" height="5.0" fill="#b9c2cc"/>
+<rect x="514.8" y="205.9" width="1" height="4.1" fill="#b9c2cc"/>
+<rect x="515.8" y="207.3" width="1" height="2.7" fill="#b9c2cc"/>
+<rect x="516.9" y="197.7" width="1" height="12.3" fill="#b9c2cc"/>
+<rect x="517.9" y="206.2" width="1" height="3.8" fill="#b9c2cc"/>
+<rect x="519.0" y="202.7" width="1" height="7.3" fill="#b9c2cc"/>
+<rect x="522.2" y="206.6" width="1" height="3.4" fill="#b9c2cc"/>
+<rect x="523.3" y="204.0" width="1" height="6.0" fill="#b9c2cc"/>
+<rect x="524.3" y="200.0" width="1" height="10.0" fill="#b9c2cc"/>
+<rect x="525.4" y="205.7" width="1" height="4.3" fill="#b9c2cc"/>
+<rect x="529.7" y="207.1" width="1" height="2.9" fill="#b9c2cc"/>
+<rect x="530.7" y="206.7" width="1" height="3.3" fill="#b9c2cc"/>
+<rect x="531.8" y="204.2" width="1" height="5.8" fill="#b9c2cc"/>
+<rect x="532.8" y="207.2" width="1" height="2.8" fill="#b9c2cc"/>
+<rect x="533.9" y="202.3" width="1" height="7.7" fill="#b9c2cc"/>
+<rect x="537.1" y="198.9" width="1" height="11.1" fill="#b9c2cc"/>
+<rect x="538.2" y="206.6" width="1" height="3.4" fill="#b9c2cc"/>
+<rect x="539.2" y="201.8" width="1" height="8.2" fill="#b9c2cc"/>
+<rect x="540.3" y="204.1" width="1" height="5.9" fill="#b9c2cc"/>
+<rect x="541.4" y="206.5" width="1" height="3.5" fill="#b9c2cc"/>
+<rect x="544.6" y="203.8" width="1" height="6.2" fill="#b9c2cc"/>
+<rect x="546.7" y="207.1" width="1" height="2.9" fill="#b9c2cc"/>
+<rect x="547.8" y="205.9" width="1" height="4.1" fill="#b9c2cc"/>
+<rect x="548.8" y="207.0" width="1" height="3.0" fill="#b9c2cc"/>
+<rect x="552.0" y="207.6" width="1" height="2.4" fill="#b9c2cc"/>
+<rect x="553.1" y="207.0" width="1" height="3.0" fill="#b9c2cc"/>
+<rect x="554.1" y="206.6" width="1" height="3.4" fill="#b9c2cc"/>
+<rect x="555.2" y="203.9" width="1" height="6.1" fill="#b9c2cc"/>
+<rect x="559.5" y="207.1" width="1" height="2.9" fill="#b9c2cc"/>
+<rect x="560.5" y="202.8" width="1" height="7.2" fill="#b9c2cc"/>
+<rect x="561.6" y="204.6" width="1" height="5.4" fill="#b9c2cc"/>
+<rect x="562.7" y="204.2" width="1" height="5.8" fill="#b9c2cc"/>
+<rect x="563.7" y="206.4" width="1" height="3.6" fill="#b9c2cc"/>
+<rect x="566.9" y="205.3" width="1" height="4.7" fill="#b9c2cc"/>
+<rect x="568.0" y="205.3" width="1" height="4.7" fill="#b9c2cc"/>
+<rect x="569.0" y="198.9" width="1" height="11.1" fill="#b9c2cc"/>
+<rect x="570.1" y="206.6" width="1" height="3.4" fill="#b9c2cc"/>
+<rect x="571.2" y="207.8" width="1" height="2.2" fill="#b9c2cc"/>
+<rect x="574.4" y="207.4" width="1" height="2.6" fill="#b9c2cc"/>
+<rect x="575.4" y="206.5" width="1" height="3.5" fill="#b9c2cc"/>
+<rect x="576.5" y="205.7" width="1" height="4.3" fill="#b9c2cc"/>
+<rect x="577.6" y="206.7" width="1" height="3.3" fill="#b9c2cc"/>
+<rect x="578.6" y="205.9" width="1" height="4.1" fill="#b9c2cc"/>
+<rect x="581.8" y="204.2" width="1" height="5.8" fill="#b9c2cc"/>
+<rect x="582.9" y="204.4" width="1" height="5.6" fill="#b9c2cc"/>
+<rect x="583.9" y="208.3" width="1" height="1.7" fill="#b9c2cc"/>
+<rect x="585.0" y="206.7" width="1" height="3.3" fill="#b9c2cc"/>
+<rect x="586.1" y="203.3" width="1" height="6.7" fill="#b9c2cc"/>
+<rect x="589.3" y="200.7" width="1" height="9.3" fill="#b9c2cc"/>
+<rect x="590.3" y="202.6" width="1" height="7.4" fill="#b9c2cc"/>
+<rect x="591.4" y="203.3" width="1" height="6.7" fill="#b9c2cc"/>
+<rect x="593.5" y="204.6" width="1" height="5.4" fill="#b9c2cc"/>
+<rect x="596.7" y="205.9" width="1" height="4.1" fill="#b9c2cc"/>
+<rect x="597.8" y="203.8" width="1" height="6.2" fill="#b9c2cc"/>
+<rect x="598.8" y="203.0" width="1" height="7.0" fill="#b9c2cc"/>
+<rect x="599.9" y="203.8" width="1" height="6.2" fill="#b9c2cc"/>
+<rect x="601.0" y="204.9" width="1" height="5.1" fill="#b9c2cc"/>
+<rect x="604.2" y="201.8" width="1" height="8.2" fill="#b9c2cc"/>
+<rect x="605.2" y="203.2" width="1" height="6.8" fill="#b9c2cc"/>
+<rect x="606.3" y="201.9" width="1" height="8.1" fill="#b9c2cc"/>
+<rect x="607.4" y="204.3" width="1" height="5.7" fill="#b9c2cc"/>
+<rect x="608.4" y="206.7" width="1" height="3.3" fill="#b9c2cc"/>
+<rect x="611.6" y="201.2" width="1" height="8.8" fill="#b9c2cc"/>
+<rect x="612.7" y="205.4" width="1" height="4.6" fill="#b9c2cc"/>
+<rect x="613.7" y="205.4" width="1" height="4.6" fill="#b9c2cc"/>
+<rect x="614.8" y="203.9" width="1" height="6.1" fill="#b9c2cc"/>
+<rect x="615.9" y="207.7" width="1" height="2.3" fill="#b9c2cc"/>
+<rect x="619.1" y="208.2" width="1" height="1.8" fill="#b9c2cc"/>
+<rect x="620.1" y="205.8" width="1" height="4.2" fill="#b9c2cc"/>
+<rect x="621.2" y="205.6" width="1" height="4.4" fill="#b9c2cc"/>
+<rect x="622.3" y="206.0" width="1" height="4.0" fill="#b9c2cc"/>
+<rect x="623.3" y="208.1" width="1" height="1.9" fill="#b9c2cc"/>
+<rect x="626.5" y="206.5" width="1" height="3.5" fill="#b9c2cc"/>
+<rect x="627.6" y="205.7" width="1" height="4.3" fill="#b9c2cc"/>
+<rect x="628.7" y="207.2" width="1" height="2.8" fill="#b9c2cc"/>
+<rect x="629.7" y="206.6" width="1" height="3.4" fill="#b9c2cc"/>
+<rect x="630.8" y="205.8" width="1" height="4.2" fill="#b9c2cc"/>
+<rect x="634.0" y="207.7" width="1" height="2.3" fill="#b9c2cc"/>
+<rect x="635.0" y="208.1" width="1" height="1.9" fill="#b9c2cc"/>
+<rect x="636.1" y="207.6" width="1" height="2.4" fill="#b9c2cc"/>
+<rect x="637.2" y="207.1" width="1" height="2.9" fill="#b9c2cc"/>
+<rect x="638.2" y="206.1" width="1" height="3.9" fill="#b9c2cc"/>
+<rect x="641.4" y="206.6" width="1" height="3.4" fill="#b9c2cc"/>
+<rect x="642.5" y="207.0" width="1" height="3.0" fill="#b9c2cc"/>
+<rect x="643.6" y="207.0" width="1" height="3.0" fill="#b9c2cc"/>
+<rect x="644.6" y="206.7" width="1" height="3.3" fill="#b9c2cc"/>
+<rect x="645.7" y="207.5" width="1" height="2.5" fill="#b9c2cc"/>
+<rect x="648.9" y="207.5" width="1" height="2.5" fill="#b9c2cc"/>
+<rect x="649.9" y="207.5" width="1" height="2.5" fill="#b9c2cc"/>
+<rect x="651.0" y="207.3" width="1" height="2.7" fill="#b9c2cc"/>
+<rect x="652.1" y="207.0" width="1" height="3.0" fill="#b9c2cc"/>
+<rect x="653.1" y="208.1" width="1" height="1.9" fill="#b9c2cc"/>
+<rect x="656.3" y="204.3" width="1" height="5.7" fill="#b9c2cc"/>
+<rect x="657.4" y="207.3" width="1" height="2.7" fill="#b9c2cc"/>
+<rect x="658.5" y="206.8" width="1" height="3.2" fill="#b9c2cc"/>
+<rect x="659.5" y="205.4" width="1" height="4.6" fill="#b9c2cc"/>
+<rect x="660.6" y="204.9" width="1" height="5.1" fill="#b9c2cc"/>
+<rect x="663.8" y="207.5" width="1" height="2.5" fill="#b9c2cc"/>
+<rect x="664.8" y="205.4" width="1" height="4.6" fill="#b9c2cc"/>
+<rect x="665.9" y="206.3" width="1" height="3.7" fill="#b9c2cc"/>
+<rect x="667.0" y="206.2" width="1" height="3.8" fill="#b9c2cc"/>
+<rect x="668.0" y="204.9" width="1" height="5.1" fill="#b9c2cc"/>
+<rect x="671.2" y="207.0" width="1" height="3.0" fill="#b9c2cc"/>
+<rect x="672.3" y="207.5" width="1" height="2.5" fill="#b9c2cc"/>
+<rect x="673.4" y="204.3" width="1" height="5.7" fill="#b9c2cc"/>
+<rect x="674.4" y="206.9" width="1" height="3.1" fill="#b9c2cc"/>
+<rect x="675.5" y="206.3" width="1" height="3.7" fill="#b9c2cc"/>
+<rect x="678.7" y="206.2" width="1" height="3.8" fill="#b9c2cc"/>
+<rect x="679.7" y="206.6" width="1" height="3.4" fill="#b9c2cc"/>
+<rect x="680.8" y="207.0" width="1" height="3.0" fill="#b9c2cc"/>
+<rect x="681.9" y="207.0" width="1" height="3.0" fill="#b9c2cc"/>
+<rect x="682.9" y="207.9" width="1" height="2.1" fill="#b9c2cc"/>
+<rect x="686.1" y="205.8" width="1" height="4.2" fill="#b9c2cc"/>
+<rect x="687.2" y="202.8" width="1" height="7.2" fill="#b9c2cc"/>
+<rect x="688.3" y="202.9" width="1" height="7.1" fill="#b9c2cc"/>
+<rect x="689.3" y="202.1" width="1" height="7.9" fill="#b9c2cc"/>
+<rect x="690.4" y="206.4" width="1" height="3.6" fill="#b9c2cc"/>
+<rect x="694.6" y="204.8" width="1" height="5.2" fill="#b9c2cc"/>
+<rect x="695.7" y="206.5" width="1" height="3.5" fill="#b9c2cc"/>
+<rect x="696.8" y="206.5" width="1" height="3.5" fill="#b9c2cc"/>
+<rect x="697.8" y="206.7" width="1" height="3.3" fill="#b9c2cc"/>
+<rect x="701.0" y="206.2" width="1" height="3.8" fill="#b9c2cc"/>
+<rect x="702.1" y="207.4" width="1" height="2.6" fill="#b9c2cc"/>
+<rect x="703.2" y="201.9" width="1" height="8.1" fill="#b9c2cc"/>
+<rect x="704.2" y="204.7" width="1" height="5.3" fill="#b9c2cc"/>
+<rect x="705.3" y="205.5" width="1" height="4.5" fill="#b9c2cc"/>
+<rect x="708.5" y="204.7" width="1" height="5.3" fill="#b9c2cc"/>
+<rect x="709.6" y="199.6" width="1" height="10.4" fill="#b9c2cc"/>
+<rect x="710.6" y="207.5" width="1" height="2.5" fill="#b9c2cc"/>
+<rect x="711.7" y="206.7" width="1" height="3.3" fill="#b9c2cc"/>
+<rect x="712.7" y="207.5" width="1" height="2.5" fill="#b9c2cc"/>
+<rect x="715.9" y="207.0" width="1" height="3.0" fill="#b9c2cc"/>
+<rect x="717.0" y="207.6" width="1" height="2.4" fill="#b9c2cc"/>
+<rect x="718.1" y="200.0" width="1" height="10.0" fill="#b9c2cc"/>
+<rect x="719.1" y="204.8" width="1" height="5.2" fill="#b9c2cc"/>
+<rect x="720.2" y="200.8" width="1" height="9.2" fill="#b9c2cc"/>
+<rect x="723.4" y="190.0" width="1" height="20.0" fill="#b9c2cc"/>
+<rect x="724.5" y="199.6" width="1" height="10.4" fill="#b9c2cc"/>
+<rect x="725.5" y="201.0" width="1" height="9.0" fill="#b9c2cc"/>
+<rect x="726.6" y="200.7" width="1" height="9.3" fill="#b9c2cc"/>
+<rect x="727.6" y="201.9" width="1" height="8.1" fill="#b9c2cc"/>
+<rect x="731.9" y="204.2" width="1" height="5.8" fill="#b9c2cc"/>
+<rect x="733.0" y="203.7" width="1" height="6.3" fill="#b9c2cc"/>
+<rect x="734.0" y="198.1" width="1" height="11.9" fill="#b9c2cc"/>
+<rect x="735.1" y="200.3" width="1" height="9.7" fill="#b9c2cc"/>
+<rect x="738.3" y="205.4" width="1" height="4.6" fill="#b9c2cc"/>
+<rect x="739.4" y="202.5" width="1" height="7.5" fill="#b9c2cc"/>
+<rect x="740.4" y="203.5" width="1" height="6.5" fill="#b9c2cc"/>
+<rect x="741.5" y="202.9" width="1" height="7.1" fill="#b9c2cc"/>
+<rect x="742.5" y="203.4" width="1" height="6.6" fill="#b9c2cc"/>
+<rect x="745.7" y="185.4" width="1" height="24.6" fill="#b9c2cc"/>
+<rect x="746.8" y="197.8" width="1" height="12.2" fill="#b9c2cc"/>
+<rect x="747.9" y="193.5" width="1" height="16.5" fill="#b9c2cc"/>
+<rect x="748.9" y="196.4" width="1" height="13.6" fill="#b9c2cc"/>
+<rect x="750.0" y="196.3" width="1" height="13.7" fill="#b9c2cc"/>
+<text x="40" y="178" fill="#777">volume</text>
+<line x1="365.7" y1="101.6" x2="417.9" y2="84.3" stroke="#1f6fd1" stroke-width="3.5" stroke-linecap="round"/>
+<text x="365.7" y="77.3" fill="#1f6fd1" font-weight="600">Dow1</text>
+<line x1="440.2" y1="69.5" x2="447.7" y2="76.7" stroke="#1f6fd1" stroke-width="3.5" stroke-linecap="round"/>
+<text x="440.2" y="62.5" fill="#1f6fd1" font-weight="600">Dow2</text>
+<line x1="524.3" y1="58.4" x2="546.7" y2="44.9" stroke="#1f6fd1" stroke-width="3.5" stroke-linecap="round"/>
+<text x="524.3" y="37.9" fill="#1f6fd1" font-weight="600">Dow3</text>
+<line x1="614.8" y1="82.0" x2="627.6" y2="85.8" stroke="#1f6fd1" stroke-width="3.5" stroke-linecap="round"/>
+<text x="614.8" y="75.0" fill="#1f6fd1" font-weight="600">Dow4</text>
+<line x1="687.2" y1="84.7" x2="745.7" y2="92.8" stroke="#1f6fd1" stroke-width="3.5" stroke-linecap="round"/>
+<text x="687.2" y="77.7" fill="#1f6fd1" font-weight="600">Dow5</text>
+<circle cx="52.8" cy="157.7" r="2.8" fill="#c0392b"/><text x="57.8" y="169.7" text-anchor="start" fill="#222">fundo: início da alta primária</text>
+<circle cx="740.4" cy="20.5" r="2.8" fill="#c0392b"/><text x="735.4" y="23.5" text-anchor="end" fill="#222">topo 36,26</text>
+<circle cx="750.0" cy="115.7" r="2.8" fill="#c0392b"/><text x="745.0" y="125.7" text-anchor="end" fill="#222">pânico</text>
+<text x="365.5" y="18" fill="#667">janela de observação</text>
+</svg></div><p class="cap">Fechamento diário (R$) de jan/2025 a out/2026, com volume embaixo. Faixa azul-clara = janela de observação; traços azuis = operações de Dow (compra → venda).</p>
+
+<h2>1. Tendências</h2>
+<ul><li><b>Primária (~2 anos): alta.</b> Depois de cair durante 2024, a ALOS3 fez fundo em jan/2025 e passou quase dois anos fazendo topos e fundos cada vez mais altos, até o topo de R$ 36,26 em 21/10/2026. Esse é o movimento principal, a "maré".</li>
+<li><b>Secundária (~3 meses): correção de abril a agosto/2026.</b> A ação devolveu boa parte da subida, mas não perdeu o fundo que deu início à alta, e voltou a subir em setembro. É a "onda" contra a maré, que não muda a direção principal.</li>
+<li><b>Terciária (~3 semanas):</b> pequenas oscilações dentro das ondas, como a subida rápida de novembro/2025 e as quedas curtas de dezembro/2025 e março/2026. Servem para escolher o momento de entrar, não para definir a tendência.</li></ul>
+<h2>2. Fases das tendências</h2>
+<div class="two"><div><b>Na alta</b><ul>
+<li><b>Acumulação</b> (out/2025): preço de lado perto de R$ 24; investidores pacientes comprando sem pressa.</li>
+<li><b>Alta sensível</b> (nov/2025 a abr/2026): subida constante, com topos e fundos subindo. É a melhor fase para entrar.</li>
+<li><b>Euforia</b> (set–out/2026): subida muito rápida, de R$ 25 para R$ 36 em dois meses, com volume muito alto.</li></ul></div>
+<div><b>Na baixa</b><ul>
+<li><b>Distribuição</b> (início de out/2026): preço travado no topo com volume alto. Quem comprou barato vende para quem chegou tarde.</li>
+<li><b>Baixa sensível</b> (mai–ago/2026): queda lenta, sem desespero, dentro da correção secundária.</li>
+<li><b>Pânico</b> (26/10/2026): a ação abriu 25% abaixo do dia anterior, com o maior volume do ano.</li></ul></div></div>
+<h2>3. Volume x Tendência</h2>
+<p>O volume se comportou como a teoria diz. <b>Nas altas o volume cresceu</b> (compradores com pressa), confirmando a continuação, como em nov/2025 e set–out/2026. <b>Na correção de mai–ago/2026 o volume caiu</b>: a queda não tinha força, um aviso de que a alta podia voltar, e voltou. No <b>pânico</b> de outubro o volume explodiu na queda: vendedores desesperados. O preço mostra a direção; o volume mostra a convicção, por isso o professor o chama de "raio X".</p>
+<h2>4. Congestões e ângulo</h2>
+<p><b>Acumulação:</b> faixas laterais em out/2025 (R$ 23–25), dez/2025–jan/2026, mar/2026 e jun–ago/2026 (R$ 25–29). Todas romperam para cima, o que confirma que eram acumulação. <b>Distribuição:</b> a faixa de R$ 34–36 no topo de outubro/2026, rompida para baixo pelo gap de 26/10.</p>
+<p><b>Ângulo:</b> a alta principal subiu num ângulo de cerca de <b>30–45°</b>, ritmo saudável e sustentável. Na euforia de outubro/2026 o ângulo passou de <b>60°</b>, uma "subida em pé", que reflete emoção e costuma terminar em queda forte. Foi o que aconteceu uma semana depois.</p>
+<h2>5. Estratégia operacional – boleta (1 ação por operação)</h2>
+<table><tr><th>Estratégia</th><th>Compra</th><th>Preço</th><th>Venda</th><th>Preço</th><th>Dias</th><th>Lucro R$</th><th>%</th></tr><tr><td class=l>Buy and Hold</td><td>30/10/2025</td><td>24,73</td><td>30/10/2026</td><td>23,50</td><td>365</td><td>−1,23</td><td>−4,97%</td></tr><tr><td class=l>Teórica</td><td>30/10/2025</td><td>24,29</td><td>21/10/2026</td><td>36,26</td><td>356</td><td>+11,97</td><td>+49,28%</td></tr><tr><td class=l>Dow1</td><td>03/11/2025</td><td>24,97</td><td>22/12/2025</td><td>27,38</td><td>49</td><td>+2,41</td><td>+9,65%</td></tr><tr><td class=l>Dow2</td><td>12/01/2026</td><td>29,43</td><td>19/01/2026</td><td>28,44</td><td>7</td><td>−0,99</td><td>−3,36%</td></tr><tr><td class=l>Dow3</td><td>01/04/2026</td><td>30,98</td><td>22/04/2026</td><td>32,86</td><td>21</td><td>+1,88</td><td>+6,07%</td></tr><tr><td class=l>Dow4</td><td>25/06/2026</td><td>27,69</td><td>07/07/2026</td><td>27,17</td><td>12</td><td>−0,52</td><td>−1,88%</td></tr><tr><td class=l>Dow5</td><td>01/09/2026</td><td>27,32</td><td>26/10/2026</td><td>26,19</td><td>55</td><td>−1,13</td><td>−4,14%</td></tr><tr class="tot"><td class=l>Pay off Dow</td><td></td><td>140,39</td><td></td><td>142,04</td><td>144</td><td>+1,65</td><td>+1,18%</td></tr></table>
+<div class="box"><b class="t">Como funciona a Teoria de Dow (versão para iniciantes)</b>
+<p>Uma ação está <b>em alta</b> enquanto faz <b>topos e fundos cada vez mais altos</b>, como uma escada subindo; está <b>em baixa</b> quando faz topos e fundos cada vez mais baixos. A estratégia só compra na escada que sobe:</p>
+<ul><li><b>Topo</b> é um pico no gráfico (a máxima do dia é maior que a dos dias vizinhos). <b>Fundo</b> é um vale (a mínima é menor que a dos vizinhos).</li>
+<li><b>Comprar:</b> quando aparece um fundo mais alto que o anterior e o preço <b>fecha acima do último topo</b>. Topo mais alto + fundo mais alto = alta confirmada.</li>
+<li><b>Vender:</b> quando o preço <b>fecha abaixo do último fundo</b>. O degrau quebrou, a tendência perdeu força. A cada novo fundo mais alto, o ponto de venda sobe junto.</li></ul>
+<p>Como a Dow espera a confirmação, ela <b>entra um pouco depois do fundo e sai um pouco depois do topo</b>: nunca pega o movimento inteiro, mas evita ficar comprada numa queda longa.</p></div>
+<p><b>Buy and Hold</b> = comprar no primeiro dia e vender no último. <b>Teórica</b> = comprar no menor preço e vender no maior (impossível na prática, serve de teto). <b>Pay off</b> = lucro somado ÷ valor investido somado.</p>
+<h2>Por que cada operação de Dow</h2>
+<ul><li><b>Dow1:</b> fundo de 30/10 mais alto que o de 22/10; comprou quando fechou acima do topo de 27/10. Vendeu ao perder o fundo de 17/12. Pegou boa parte da alta de novembro.</li>
+<li><b>Dow2:</b> rompeu um topo em janeiro, mas a ação estava de lado e voltou logo (<b>falso rompimento</b>). A regra tirou a operação rápido, com perda pequena.</li>
+<li><b>Dow3:</b> fundo mais alto no fim de março e rompimento do topo; acompanhou a alta de abril e vendeu ao perder o fundo de 16/04, perto do topo do período.</li>
+<li><b>Dow4:</b> outro sinal falso dentro da congestão de junho–julho; perda pequena.</li>
+<li><b>Dow5:</b> comprou no começo da euforia. O ponto de venda subiu até R$ 33,76 (lucro de ~24%), mas em 26/10 a ação <b>abriu em gap</b> muito abaixo e a venda só saiu a R$ 26,19. Nenhuma regra protege contra gap.</li></ul>
+<h2>6. Conclusão</h2>
+<p>A ALOS3 viveu uma <b>tendência primária de alta</b> que terminou com euforia (ângulo acima de 60° e volume alto) seguida de pânico. A Dow <b>ganhou do Buy and Hold</b> (+1,18% contra −4,97%) ficando comprada só cerca de 40% do tempo. Ela acertou nas tendências (Dow1 e Dow3), errou quando o mercado andou de lado (Dow2 e Dow4) e foi atingida pelo gap final. Sem o gap, o resultado teria ficado perto de +6%.</p><p style="font-size:8pt;color:#666">Dados: Yahoo Finance (ALOS3.SA), preços diários sem ajuste de proventos. Se algum preço diferir em centavos do TradingView, vale o do TradingView.</p>
+</body></html>
