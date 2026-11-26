@@ -16,6 +16,12 @@ Acompanhar as aulas, seguir o material do curso, escrever resumos e guardar as a
 | [Cap. 6](resumos/cap06-linhas-de-tendencia.md) | Linhas de Tendência |
 | [Cap. 7](resumos/cap07-volume.md) | Volume |
 
+**Resumo completo para imprimir (caps. 3, 5, 6 e 7):** [PDF](resumos/resumo-capitulos-3-5-6-7.pdf) · [HTML](resumos/resumo-capitulos-3-5-6-7.html)
+
+**Resumo em 1 página:** [versão em tópicos](resumos/resumo-1-pagina-versao-topicos.pdf) · [versão cola (tabela + desenhos)](resumos/resumo-1-pagina-versao-cola.pdf)
+
+**Cap. 3 em texto corrido (Word, 1 página):** [resumo-cap3-teoria-de-dow.docx](resumos/resumo-cap3-teoria-de-dow.docx)
+
 Também: [glossário de termos](resumos/glossario.md) (tradução literal do livro → termo usado no mercado brasileiro).
 
 ### Aulas
@@ -24,6 +30,8 @@ Também: [glossário de termos](resumos/glossario.md) (tradução literal do liv
 
 ### Atividades
 - [Exercício 1 — ALOS3 (boleta)](atividades/exercicio-01-alos3.md)
+- [Exercício 2 — ALOS3, Tendências de Dow (Trade002)](atividades/exercicio-02-alos3-dow.md) · [planilha](atividades/exercicio-02-alos3-dow.xlsx)
+- Exercício 3 — Relatórios + boletas (B&H, Teórica, Dow para iniciantes): [ALOS3 (PDF)](atividades/exercicio-03-relatorio-alos3.pdf) · [TIMS3 (PDF)](atividades/exercicio-03-relatorio-tims3.pdf) · [planilha com as duas boletas](atividades/exercicio-03-boletas-alos3-tims3.xlsx)
 
 ### [Progresso](progresso.md)
 
