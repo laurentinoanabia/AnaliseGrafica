@@ -16,6 +16,8 @@ Acompanhar as aulas, seguir o material do curso, escrever resumos e guardar as a
 | [Cap. 6](resumos/cap06-linhas-de-tendencia.md) | Linhas de Tendência |
 | [Cap. 7](resumos/cap07-volume.md) | Volume |
 
+**Resumo completo para imprimir (caps. 3, 5, 6 e 7):** [PDF](resumos/resumo-capitulos-3-5-6-7.pdf) · [HTML](resumos/resumo-capitulos-3-5-6-7.html)
+
 Também: [glossário de termos](resumos/glossario.md) (tradução literal do livro → termo usado no mercado brasileiro).
 
 ### Aulas
