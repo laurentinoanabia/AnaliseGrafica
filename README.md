@@ -18,6 +18,8 @@ Acompanhar as aulas, seguir o material do curso, escrever resumos e guardar as a
 
 **Resumo completo para imprimir (caps. 3, 5, 6 e 7):** [PDF](resumos/resumo-capitulos-3-5-6-7.pdf) · [HTML](resumos/resumo-capitulos-3-5-6-7.html)
 
+**Resumo em 1 página:** [versão em tópicos](resumos/resumo-1-pagina-versao-topicos.pdf) · [versão cola (tabela + desenhos)](resumos/resumo-1-pagina-versao-cola.pdf)
+
 Também: [glossário de termos](resumos/glossario.md) (tradução literal do livro → termo usado no mercado brasileiro).
 
 ### Aulas
