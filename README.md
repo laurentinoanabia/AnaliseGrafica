@@ -20,6 +20,8 @@ Acompanhar as aulas, seguir o material do curso, escrever resumos e guardar as a
 
 **Resumo em 1 página:** [versão em tópicos](resumos/resumo-1-pagina-versao-topicos.pdf) · [versão cola (tabela + desenhos)](resumos/resumo-1-pagina-versao-cola.pdf)
 
+**Cap. 3 em texto corrido (Word, 1 página):** [resumo-cap3-teoria-de-dow.docx](resumos/resumo-cap3-teoria-de-dow.docx)
+
 Também: [glossário de termos](resumos/glossario.md) (tradução literal do livro → termo usado no mercado brasileiro).
 
 ### Aulas

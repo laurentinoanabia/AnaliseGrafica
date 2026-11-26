@@ -24,3 +24,4 @@
 - **2026-11-26** — ALOS3 refeita com as 5 operações de Dow escolhidas pela Ana; relatórios simplificados.
 - **2026-11-26** — Resumo completo dos caps. 3, 5, 6 e 7 em PDF para imprimir (7 páginas, com figuras e mini glossário).
 - **2026-11-26** — Resumo dos 4 capítulos em 1 página, em duas versões (tópicos e cola).
+- **2026-11-26** — Resumo do cap. 3 (Teoria de Dow) em parágrafos, arquivo Word de 1 página.
